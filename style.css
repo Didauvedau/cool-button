@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.container {
+  display: grid;
+  height: 100px;
+  width: 50%;
+  place-items: center;
+  margin-top: 300px;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s linear;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.wrapper .button .icon .fab {
+  height: 60px;
+}
+
+.button:nth-child(1):hover .fab {
+  color: #0000ff;
+}
+
+.button:nth-child(2):hover .fab {
+  color: #1da1f2;
+}
+
+.button:nth-child(3):hover .fab {
+  color: #f13f79;
+}
+
+.button:nth-child(5):hover .fab {
+  color: red;
+}
+
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.button span {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+.button:nth-child(1) span {
+  color: blue;
+}
+
+.button:nth-child(2) span {
+  color: #1da1f2;
+}
+
+.button:nth-child(3) span {
+  color: #f13f79;
+}
+
+.button:nth-child(5) span {
+  color: red;
+}
+
+.wrapper .button:hover {
+  width: 200px;
+}
