@@ -96,3 +96,19 @@
 .wrapper .button:hover {
   width: 200px;
 }
+
+.check{
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-check{
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: black;
+  border-radius: 50px;
+  cursor: pointer;
+}
